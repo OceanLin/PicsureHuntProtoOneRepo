@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E15F700188CB74D0016CAA7 /* POI+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E15F6FF188CB74D0016CAA7 /* POI+Annotation.m */; };
+		8E2A924118911DD200E398FB /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A924018911DD200E398FB /* Region.m */; };
+		8E2A924718911DD200E398FB /* POI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A924618911DD200E398FB /* POI.m */; };
+		8E2A924A18911E1100E398FB /* Path+Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A924918911E1100E398FB /* Path+Content.m */; };
+		8E2A924D18913C6800E398FB /* Path.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2A924C18913C6800E398FB /* Path.m */; };
+		8E38646A1888B19B00D1CECE /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3864691888B19B00D1CECE /* OverlayView.m */; };
+		8E38646C1888DF7300D1CECE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E38646B1888DF7300D1CECE /* MapKit.framework */; };
+		8E38646F1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E38646D1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodeld */; };
+		8E3864851888FA8000D1CECE /* StorageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3864841888FA8000D1CECE /* StorageHelper.m */; };
+		8E386488188901CE00D1CECE /* POI+Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E386487188901CE00D1CECE /* POI+Content.m */; };
+		8E386491188905D400D1CECE /* Region+Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E386490188905D400D1CECE /* Region+Content.m */; };
+		8E4CAEE01889FA9000B23FC9 /* RecordMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4CAEDF1889FA9000B23FC9 /* RecordMapVC.m */; };
+		8ED428E618924C56008A443A /* AddPOIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED428E518924C56008A443A /* AddPOIVC.m */; };
+		8EF0992C1896750A00DF9333 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF0992B1896750A00DF9333 /* MobileCoreServices.framework */; };
+		8EF0992F189680D800DF9333 /* PhotoViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF0992E189680D800DF9333 /* PhotoViewerVC.m */; };
+		8EF7B6F618851323002167BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B6F518851323002167BC /* Foundation.framework */; };
+		8EF7B6F818851323002167BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B6F718851323002167BC /* CoreGraphics.framework */; };
+		8EF7B6FA18851323002167BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B6F918851323002167BC /* UIKit.framework */; };
+		8EF7B70018851323002167BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7B6FE18851323002167BC /* InfoPlist.strings */; };
+		8EF7B70218851323002167BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7B70118851323002167BC /* main.m */; };
+		8EF7B70618851323002167BC /* PicsureHuntProtoOneAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7B70518851323002167BC /* PicsureHuntProtoOneAppDelegate.m */; };
+		8EF7B70918851323002167BC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7B70718851323002167BC /* Main_iPhone.storyboard */; };
+		8EF7B70C18851323002167BC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7B70A18851323002167BC /* Main_iPad.storyboard */; };
+		8EF7B71118851323002167BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7B71018851323002167BC /* Images.xcassets */; };
+		8EF7B71818851323002167BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B71718851323002167BC /* XCTest.framework */; };
+		8EF7B71918851323002167BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B6F518851323002167BC /* Foundation.framework */; };
+		8EF7B71A18851323002167BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B6F918851323002167BC /* UIKit.framework */; };
+		8EF7B72218851323002167BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EF7B72018851323002167BC /* InfoPlist.strings */; };
+		8EF7B72418851323002167BC /* PicsureHuntProtoOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7B72318851323002167BC /* PicsureHuntProtoOneTests.m */; };
+		8EF7B7321885147A002167BC /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7B7311885147A002167BC /* CoreDataTableViewController.m */; };
+		8EF7B735188521C2002167BC /* MyRecordCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7B734188521C2002167BC /* MyRecordCDTVC.m */; };
+		8EF7B738188532FE002167BC /* LocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7B737188532FE002167BC /* LocationHelper.m */; };
+		8EF7B73B188534D2002167BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF7B73A188534D2002167BC /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EF7B71B18851323002167BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EF7B6EA18851323002167BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EF7B6F118851323002167BC;
+			remoteInfo = PicsureHuntProtoOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E15F6FE188CB74D0016CAA7 /* POI+Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "POI+Annotation.h"; sourceTree = "<group>"; };
+		8E15F6FF188CB74D0016CAA7 /* POI+Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "POI+Annotation.m"; sourceTree = "<group>"; };
+		8E2A923F18911DD200E398FB /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Region.h; sourceTree = "<group>"; };
+		8E2A924018911DD200E398FB /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Region.m; sourceTree = "<group>"; };
+		8E2A924518911DD200E398FB /* POI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POI.h; sourceTree = "<group>"; };
+		8E2A924618911DD200E398FB /* POI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POI.m; sourceTree = "<group>"; };
+		8E2A924818911E1100E398FB /* Path+Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Path+Content.h"; sourceTree = "<group>"; };
+		8E2A924918911E1100E398FB /* Path+Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Path+Content.m"; sourceTree = "<group>"; };
+		8E2A924B18913C6800E398FB /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
+		8E2A924C18913C6800E398FB /* Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Path.m; sourceTree = "<group>"; };
+		8E3864681888B19B00D1CECE /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		8E3864691888B19B00D1CECE /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		8E38646B1888DF7300D1CECE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8E38646E1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PicsureHuntDatabase.xcdatamodel; sourceTree = "<group>"; };
+		8E3864831888FA8000D1CECE /* StorageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageHelper.h; sourceTree = "<group>"; };
+		8E3864841888FA8000D1CECE /* StorageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageHelper.m; sourceTree = "<group>"; };
+		8E386486188901CE00D1CECE /* POI+Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "POI+Content.h"; sourceTree = "<group>"; };
+		8E386487188901CE00D1CECE /* POI+Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "POI+Content.m"; sourceTree = "<group>"; };
+		8E38648F188905D400D1CECE /* Region+Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Region+Content.h"; sourceTree = "<group>"; };
+		8E386490188905D400D1CECE /* Region+Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Region+Content.m"; sourceTree = "<group>"; };
+		8E4CAEDE1889FA9000B23FC9 /* RecordMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordMapVC.h; sourceTree = "<group>"; };
+		8E4CAEDF1889FA9000B23FC9 /* RecordMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordMapVC.m; sourceTree = "<group>"; };
+		8E836019189744AF00F3A66B /* PicsureHuntProtoOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PicsureHuntProtoOne.entitlements; sourceTree = "<group>"; };
+		8ED428E418924C56008A443A /* AddPOIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPOIVC.h; sourceTree = "<group>"; };
+		8ED428E518924C56008A443A /* AddPOIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPOIVC.m; sourceTree = "<group>"; };
+		8EF0992B1896750A00DF9333 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8EF0992D189680D800DF9333 /* PhotoViewerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewerVC.h; sourceTree = "<group>"; };
+		8EF0992E189680D800DF9333 /* PhotoViewerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewerVC.m; sourceTree = "<group>"; };
+		8EF7B6F218851323002167BC /* PicsureHuntProtoOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicsureHuntProtoOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF7B6F518851323002167BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EF7B6F718851323002167BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EF7B6F918851323002167BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EF7B6FD18851323002167BC /* PicsureHuntProtoOne-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicsureHuntProtoOne-Info.plist"; sourceTree = "<group>"; };
+		8EF7B6FF18851323002167BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EF7B70118851323002167BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EF7B70318851323002167BC /* PicsureHuntProtoOne-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicsureHuntProtoOne-Prefix.pch"; sourceTree = "<group>"; };
+		8EF7B70418851323002167BC /* PicsureHuntProtoOneAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicsureHuntProtoOneAppDelegate.h; sourceTree = "<group>"; };
+		8EF7B70518851323002167BC /* PicsureHuntProtoOneAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicsureHuntProtoOneAppDelegate.m; sourceTree = "<group>"; };
+		8EF7B70818851323002167BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		8EF7B70B18851323002167BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		8EF7B71018851323002167BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EF7B71618851323002167BC /* PicsureHuntProtoOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicsureHuntProtoOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF7B71718851323002167BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8EF7B71F18851323002167BC /* PicsureHuntProtoOneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicsureHuntProtoOneTests-Info.plist"; sourceTree = "<group>"; };
+		8EF7B72118851323002167BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EF7B72318851323002167BC /* PicsureHuntProtoOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicsureHuntProtoOneTests.m; sourceTree = "<group>"; };
+		8EF7B7301885147A002167BC /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		8EF7B7311885147A002167BC /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		8EF7B733188521C2002167BC /* MyRecordCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecordCDTVC.h; sourceTree = "<group>"; };
+		8EF7B734188521C2002167BC /* MyRecordCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecordCDTVC.m; sourceTree = "<group>"; };
+		8EF7B736188532FE002167BC /* LocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationHelper.h; sourceTree = "<group>"; };
+		8EF7B737188532FE002167BC /* LocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationHelper.m; sourceTree = "<group>"; };
+		8EF7B73A188534D2002167BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8EF7B73C18854403002167BC /* InternalNotificationHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InternalNotificationHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EF7B6EF18851323002167BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF0992C1896750A00DF9333 /* MobileCoreServices.framework in Frameworks */,
+				8E38646C1888DF7300D1CECE /* MapKit.framework in Frameworks */,
+				8EF7B73B188534D2002167BC /* CoreLocation.framework in Frameworks */,
+				8EF7B6F818851323002167BC /* CoreGraphics.framework in Frameworks */,
+				8EF7B6FA18851323002167BC /* UIKit.framework in Frameworks */,
+				8EF7B6F618851323002167BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF7B71318851323002167BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF7B71818851323002167BC /* XCTest.framework in Frameworks */,
+				8EF7B71A18851323002167BC /* UIKit.framework in Frameworks */,
+				8EF7B71918851323002167BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E3864701888E75800D1CECE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8E38646D1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodeld */,
+				8E2A924518911DD200E398FB /* POI.h */,
+				8E2A924618911DD200E398FB /* POI.m */,
+				8E2A923F18911DD200E398FB /* Region.h */,
+				8E2A924018911DD200E398FB /* Region.m */,
+				8E2A924B18913C6800E398FB /* Path.h */,
+				8E2A924C18913C6800E398FB /* Path.m */,
+				8E386486188901CE00D1CECE /* POI+Content.h */,
+				8E386487188901CE00D1CECE /* POI+Content.m */,
+				8E15F6FE188CB74D0016CAA7 /* POI+Annotation.h */,
+				8E15F6FF188CB74D0016CAA7 /* POI+Annotation.m */,
+				8E38648F188905D400D1CECE /* Region+Content.h */,
+				8E386490188905D400D1CECE /* Region+Content.m */,
+				8E2A924818911E1100E398FB /* Path+Content.h */,
+				8E2A924918911E1100E398FB /* Path+Content.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8EF7B6E918851323002167BC = {
+			isa = PBXGroup;
+			children = (
+				8EF7B6FB18851323002167BC /* PicsureHuntProtoOne */,
+				8EF7B71D18851323002167BC /* PicsureHuntProtoOneTests */,
+				8EF7B6F418851323002167BC /* Frameworks */,
+				8EF7B6F318851323002167BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EF7B6F318851323002167BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B6F218851323002167BC /* PicsureHuntProtoOne.app */,
+				8EF7B71618851323002167BC /* PicsureHuntProtoOneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF7B6F418851323002167BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EF0992B1896750A00DF9333 /* MobileCoreServices.framework */,
+				8E38646B1888DF7300D1CECE /* MapKit.framework */,
+				8EF7B73A188534D2002167BC /* CoreLocation.framework */,
+				8EF7B6F518851323002167BC /* Foundation.framework */,
+				8EF7B6F718851323002167BC /* CoreGraphics.framework */,
+				8EF7B6F918851323002167BC /* UIKit.framework */,
+				8EF7B71718851323002167BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EF7B6FB18851323002167BC /* PicsureHuntProtoOne */ = {
+			isa = PBXGroup;
+			children = (
+				8E836019189744AF00F3A66B /* PicsureHuntProtoOne.entitlements */,
+				8EF7B70718851323002167BC /* Main_iPhone.storyboard */,
+				8EF7B70A18851323002167BC /* Main_iPad.storyboard */,
+				8E3864701888E75800D1CECE /* Data */,
+				8EF7B72F1885147A002167BC /* CoreDataTVC */,
+				8EF7B72D188513A8002167BC /* View */,
+				8EF7B72E188513CA002167BC /* Delegate */,
+				8EF7B73918853307002167BC /* Helper */,
+				8EF7B71018851323002167BC /* Images.xcassets */,
+				8EF7B6FC18851323002167BC /* Supporting Files */,
+			);
+			path = PicsureHuntProtoOne;
+			sourceTree = "<group>";
+		};
+		8EF7B6FC18851323002167BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B6FD18851323002167BC /* PicsureHuntProtoOne-Info.plist */,
+				8EF7B6FE18851323002167BC /* InfoPlist.strings */,
+				8EF7B70118851323002167BC /* main.m */,
+				8EF7B70318851323002167BC /* PicsureHuntProtoOne-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EF7B71D18851323002167BC /* PicsureHuntProtoOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B72318851323002167BC /* PicsureHuntProtoOneTests.m */,
+				8EF7B71E18851323002167BC /* Supporting Files */,
+			);
+			path = PicsureHuntProtoOneTests;
+			sourceTree = "<group>";
+		};
+		8EF7B71E18851323002167BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B71F18851323002167BC /* PicsureHuntProtoOneTests-Info.plist */,
+				8EF7B72018851323002167BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EF7B72D188513A8002167BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B733188521C2002167BC /* MyRecordCDTVC.h */,
+				8EF7B734188521C2002167BC /* MyRecordCDTVC.m */,
+				8E3864681888B19B00D1CECE /* OverlayView.h */,
+				8E3864691888B19B00D1CECE /* OverlayView.m */,
+				8E4CAEDE1889FA9000B23FC9 /* RecordMapVC.h */,
+				8E4CAEDF1889FA9000B23FC9 /* RecordMapVC.m */,
+				8ED428E418924C56008A443A /* AddPOIVC.h */,
+				8ED428E518924C56008A443A /* AddPOIVC.m */,
+				8EF0992D189680D800DF9333 /* PhotoViewerVC.h */,
+				8EF0992E189680D800DF9333 /* PhotoViewerVC.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8EF7B72E188513CA002167BC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B70418851323002167BC /* PicsureHuntProtoOneAppDelegate.h */,
+				8EF7B70518851323002167BC /* PicsureHuntProtoOneAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		8EF7B72F1885147A002167BC /* CoreDataTVC */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B7301885147A002167BC /* CoreDataTableViewController.h */,
+				8EF7B7311885147A002167BC /* CoreDataTableViewController.m */,
+			);
+			path = CoreDataTVC;
+			sourceTree = "<group>";
+		};
+		8EF7B73918853307002167BC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8EF7B73C18854403002167BC /* InternalNotificationHelper.h */,
+				8EF7B736188532FE002167BC /* LocationHelper.h */,
+				8EF7B737188532FE002167BC /* LocationHelper.m */,
+				8E3864831888FA8000D1CECE /* StorageHelper.h */,
+				8E3864841888FA8000D1CECE /* StorageHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EF7B6F118851323002167BC /* PicsureHuntProtoOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF7B72718851323002167BC /* Build configuration list for PBXNativeTarget "PicsureHuntProtoOne" */;
+			buildPhases = (
+				8EF7B6EE18851323002167BC /* Sources */,
+				8EF7B6EF18851323002167BC /* Frameworks */,
+				8EF7B6F018851323002167BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicsureHuntProtoOne;
+			productName = PicsureHuntProtoOne;
+			productReference = 8EF7B6F218851323002167BC /* PicsureHuntProtoOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EF7B71518851323002167BC /* PicsureHuntProtoOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EF7B72A18851323002167BC /* Build configuration list for PBXNativeTarget "PicsureHuntProtoOneTests" */;
+			buildPhases = (
+				8EF7B71218851323002167BC /* Sources */,
+				8EF7B71318851323002167BC /* Frameworks */,
+				8EF7B71418851323002167BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EF7B71C18851323002167BC /* PBXTargetDependency */,
+			);
+			name = PicsureHuntProtoOneTests;
+			productName = PicsureHuntProtoOneTests;
+			productReference = 8EF7B71618851323002167BC /* PicsureHuntProtoOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EF7B6EA18851323002167BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PicsureHuntProtoOne;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Lin Ocean";
+				TargetAttributes = {
+					8EF7B6F118851323002167BC = {
+						DevelopmentTeam = XCD3QU7896;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+					8EF7B71518851323002167BC = {
+						TestTargetID = 8EF7B6F118851323002167BC;
+					};
+				};
+			};
+			buildConfigurationList = 8EF7B6ED18851323002167BC /* Build configuration list for PBXProject "PicsureHuntProtoOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EF7B6E918851323002167BC;
+			productRefGroup = 8EF7B6F318851323002167BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EF7B6F118851323002167BC /* PicsureHuntProtoOne */,
+				8EF7B71518851323002167BC /* PicsureHuntProtoOneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EF7B6F018851323002167BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF7B70C18851323002167BC /* Main_iPad.storyboard in Resources */,
+				8EF7B71118851323002167BC /* Images.xcassets in Resources */,
+				8EF7B70918851323002167BC /* Main_iPhone.storyboard in Resources */,
+				8EF7B70018851323002167BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF7B71418851323002167BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF7B72218851323002167BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EF7B6EE18851323002167BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E2A924718911DD200E398FB /* POI.m in Sources */,
+				8EF7B735188521C2002167BC /* MyRecordCDTVC.m in Sources */,
+				8E4CAEE01889FA9000B23FC9 /* RecordMapVC.m in Sources */,
+				8EF0992F189680D800DF9333 /* PhotoViewerVC.m in Sources */,
+				8ED428E618924C56008A443A /* AddPOIVC.m in Sources */,
+				8E15F700188CB74D0016CAA7 /* POI+Annotation.m in Sources */,
+				8E3864851888FA8000D1CECE /* StorageHelper.m in Sources */,
+				8E38646A1888B19B00D1CECE /* OverlayView.m in Sources */,
+				8E386491188905D400D1CECE /* Region+Content.m in Sources */,
+				8E2A924118911DD200E398FB /* Region.m in Sources */,
+				8EF7B70618851323002167BC /* PicsureHuntProtoOneAppDelegate.m in Sources */,
+				8EF7B7321885147A002167BC /* CoreDataTableViewController.m in Sources */,
+				8E386488188901CE00D1CECE /* POI+Content.m in Sources */,
+				8E2A924A18911E1100E398FB /* Path+Content.m in Sources */,
+				8E38646F1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodeld in Sources */,
+				8EF7B738188532FE002167BC /* LocationHelper.m in Sources */,
+				8E2A924D18913C6800E398FB /* Path.m in Sources */,
+				8EF7B70218851323002167BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EF7B71218851323002167BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF7B72418851323002167BC /* PicsureHuntProtoOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EF7B71C18851323002167BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EF7B6F118851323002167BC /* PicsureHuntProtoOne */;
+			targetProxy = 8EF7B71B18851323002167BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EF7B6FE18851323002167BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EF7B6FF18851323002167BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EF7B70718851323002167BC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EF7B70818851323002167BC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8EF7B70A18851323002167BC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EF7B70B18851323002167BC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8EF7B72018851323002167BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EF7B72118851323002167BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EB420BA1897545C0063417E /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		8EB420BB1897545C0063417E /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicsureHuntProtoOne/PicsureHuntProtoOne-Prefix.pch";
+				INFOPLIST_FILE = "PicsureHuntProtoOne/PicsureHuntProtoOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		8EB420BC1897545C0063417E /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicsureHuntProtoOne.app/PicsureHuntProtoOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicsureHuntProtoOne/PicsureHuntProtoOne-Prefix.pch";
+				INFOPLIST_FILE = "PicsureHuntProtoOneTests/PicsureHuntProtoOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = "Ad Hoc";
+		};
+		8EF7B72518851323002167BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EF7B72618851323002167BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EF7B72818851323002167BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicsureHuntProtoOne/PicsureHuntProtoOne-Prefix.pch";
+				INFOPLIST_FILE = "PicsureHuntProtoOne/PicsureHuntProtoOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EF7B72918851323002167BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicsureHuntProtoOne/PicsureHuntProtoOne-Prefix.pch";
+				INFOPLIST_FILE = "PicsureHuntProtoOne/PicsureHuntProtoOne-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8EF7B72B18851323002167BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicsureHuntProtoOne.app/PicsureHuntProtoOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicsureHuntProtoOne/PicsureHuntProtoOne-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PicsureHuntProtoOneTests/PicsureHuntProtoOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8EF7B72C18851323002167BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicsureHuntProtoOne.app/PicsureHuntProtoOne";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicsureHuntProtoOne/PicsureHuntProtoOne-Prefix.pch";
+				INFOPLIST_FILE = "PicsureHuntProtoOneTests/PicsureHuntProtoOneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EF7B6ED18851323002167BC /* Build configuration list for PBXProject "PicsureHuntProtoOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF7B72518851323002167BC /* Debug */,
+				8EF7B72618851323002167BC /* Release */,
+				8EB420BA1897545C0063417E /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF7B72718851323002167BC /* Build configuration list for PBXNativeTarget "PicsureHuntProtoOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF7B72818851323002167BC /* Debug */,
+				8EF7B72918851323002167BC /* Release */,
+				8EB420BB1897545C0063417E /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EF7B72A18851323002167BC /* Build configuration list for PBXNativeTarget "PicsureHuntProtoOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EF7B72B18851323002167BC /* Debug */,
+				8EF7B72C18851323002167BC /* Release */,
+				8EB420BC1897545C0063417E /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E38646D1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E38646E1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodel */,
+			);
+			currentVersion = 8E38646E1888E73200D1CECE /* PicsureHuntDatabase.xcdatamodel */;
+			path = PicsureHuntDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EF7B6EA18851323002167BC /* Project object */;
+}
